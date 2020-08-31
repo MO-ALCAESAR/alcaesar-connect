@@ -29,3 +29,24 @@ if((eventbutton==2)||(eventbutton==3)) return false;
 document.oncontextmenu = mischandler;
 document.onmousedown = mousehandler;
 document.onmouseup = mousehandler;
+
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+  document.getElementById("myP").style.visibility="visible";
+  document.getElementById("myP1").style.visibility="visible";
+}
+  
+  function closeNavonly() {
+document.getElementById("mySidepanel").style.width = "0";
+  
+}
+  
+    function hide() {
+  document.getElementById("mySidepanel").style.width = "0";
+  document.getElementById("myP").style.visibility="hidden";
+  document.getElementById("myP1").style.visibility="hidden";
+}
