@@ -1,1 +1,156 @@
 
+
+  body {
+     background-color: #222222;
+	color: red;
+      font-family: "Comic Sans MS", cursive, sans-serif
+}
+h1 {
+	color: #ffffff;
+}
+
+    #mySidenav a {
+  position: absolute;
+  left: -100px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#Facebook {
+  top: 120px;
+  background-color: #38539b;
+}
+
+#WebSite {
+  top: 190px;
+  background-color: #f44336;
+}
+
+#About {
+  top: 260px;
+  background-color: #555;
+}
+    
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #555;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 15px;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 5px;
+  display: block;
+  transition: 0.3s;
+  document.getElementById("myP").style.visibility="visible";
+}
+  
+.sidepanel a:hover {
+  color: #B2B2B2;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-size: 24px;  
+}
+
+.openbtn {  
+  position: absolute;
+  left: -10px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 120px;
+  font-size: 15px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  cursor: pointer;
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius:0 5px 5px 0;
+}
+
+.openbtn:hover {
+  background-color:#555;
+  color: #B2B2B2;
+}
+
+
+.sidepanel2  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #555;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel2 a {
+  padding: 8px 8px 8px 15px;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 5px;
+  display: block;
+  transition: 0.3s;
+  document.getElementById("myP").style.visibility="visible";
+}
+  
+.sidepanel2 a:hover {
+  color: #B2B2B2;
+}
+
+.sidepanel2 .closebtn {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-size: 24px;  
+}
+
+.openbtn2 {  
+  position: absolute;
+  left: -10px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 120px;
+  font-size: 15px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  cursor: pointer;
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius:0 5px 5px 0;
+}
+
+.openbtn2:hover {
+  background-color:#555;
+  color: #B2B2B2;
+}
