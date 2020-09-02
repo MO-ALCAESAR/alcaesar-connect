@@ -98,7 +98,7 @@ h1 {
 }
 
 
-.sidepanel2  {
+.Nilesat  {
   width: 0;
   position: fixed;
   z-index: 1;
@@ -111,7 +111,7 @@ h1 {
   padding-top: 60px;
 }
 
-.sidepanel2 a {
+.Nilesat a {
   padding: 8px 8px 8px 15px;
   text-decoration: none;
   font-size: 16px;
@@ -124,11 +124,11 @@ h1 {
   document.getElementById("myP").style.visibility="visible";
 }
   
-.sidepanel2 a:hover {
+.Nilesat a:hover {
   color: #B2B2B2;
 }
 
-.sidepanel2 .closebtn {
+.Nilesat .closebtn {
   position: absolute;
   top: 0;
   right: 15px;
@@ -151,7 +151,7 @@ h1 {
   border-radius:0 5px 5px 0;
 }
 
-.sidepanel2 .openbtn2:hover {
+.openbtn2:hover {
   background-color:#555;
   color: #B2B2B2;
 }
