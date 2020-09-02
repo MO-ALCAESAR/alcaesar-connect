@@ -26,17 +26,17 @@ h1 {
 }
 
 #Facebook {
-  top: 200px;
+  top: 250px;
   background-color: #38539b;
 }
 
 #WebSite {
-  top: 270px;
+  top: 320px;
   background-color: #f44336;
 }
 
 #About {
-  top: 340px;
+  top: 390px;
   background-color: #555;
 }
     
@@ -80,6 +80,7 @@ h1 {
 .openbtn {  
   position: absolute;
   left: -10px;
+   top: 50px;
   transition: 0.3s;
   padding: 15px;
   width: 120px;
@@ -155,3 +156,24 @@ h1 {
   background-color:#555;
   color: #B2B2B2;
 }
+
+.Home {  
+  position: absolute;
+  left: -10px;
+   top: 20px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 120px;
+  font-size: 15px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  cursor: pointer;
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius:0 5px 5px 0;
+}
+.Home:hover {
+  background-color:#555;
+  color: #B2B2B2;
+}
+
