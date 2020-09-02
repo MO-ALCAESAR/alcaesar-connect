@@ -1,5 +1,0 @@
-    var password = 'caesarlive'
-    password=prompt('Please Enter the Password','');
-    if (password != 'caesarlive') {
-    location.href='https://alcaesar-connect.yoo7.com/h4-page';
-    }
