@@ -26,17 +26,17 @@ h1 {
 }
 
 #Facebook {
-  top: 120px;
+  top: 160px;
   background-color: #38539b;
 }
 
 #WebSite {
-  top: 190px;
+  top: 230px;
   background-color: #f44336;
 }
 
 #About {
-  top: 260px;
+  top: 300px;
   background-color: #555;
 }
     
@@ -138,6 +138,7 @@ h1 {
 .openbtn2 {  
   position: absolute;
   left: -10px;
+  top: 120px;	
   transition: 0.3s;
   padding: 15px;
   width: 120px;
