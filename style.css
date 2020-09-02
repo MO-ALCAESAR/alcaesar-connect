@@ -39,7 +39,27 @@ h1 {
   top: 390px;
   background-color: #555;
 }
-    
+
+.Home {  
+  position: absolute;
+  left: -10px;
+   top: 20px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 120px;
+  font-size: 15px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  cursor: pointer;
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius:0 5px 5px 0;
+}
+.Home:hover {
+  background-color:#555;
+  color: #B2B2B2;
+}
+
 .sidepanel  {
   width: 0;
   position: fixed;
@@ -80,7 +100,7 @@ h1 {
 .openbtn {  
   position: absolute;
   left: -10px;
-   top: 50px;
+   top: 80px;
   transition: 0.3s;
   padding: 15px;
   width: 120px;
@@ -139,7 +159,7 @@ h1 {
 .openbtn2 {  
   position: absolute;
   left: -10px;
-  top: 110px;	
+  top: 140px;	
   transition: 0.3s;
   padding: 15px;
   width: 120px;
@@ -157,23 +177,5 @@ h1 {
   color: #B2B2B2;
 }
 
-.Home {  
-  position: absolute;
-  left: -10px;
-   top: 20px;
-  transition: 0.3s;
-  padding: 15px;
-  width: 120px;
-  font-size: 15px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  cursor: pointer;
-  background-color: #555;
-  color: white;
-  border: none;
-  border-radius:0 5px 5px 0;
-}
-.Home:hover {
-  background-color:#555;
-  color: #B2B2B2;
-}
+
 
