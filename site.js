@@ -76,3 +76,12 @@ document.getElementById("Nilesatpanel").style.width = "0";
   document.getElementById("myP1").style.visibility="hidden";
 }
 
+    function Home() {
+  document.getElementById("Nilesatpanel").style.width = "0";
+  document.getElementById("mySidepanel").style.width = "0";
+  document.getElementById("myP").style.visibility="hidden";
+  document.getElementById("myP1").style.visibility="hidden";
+        document.getElementById('mapframe').src += '';
+}
+
+
