@@ -53,3 +53,26 @@ document.getElementById("mySidepanel").style.width = "0";
 function myFunction() {
   alert("All Copyright Reserved To AlCaesar 2020");
 }
+
+
+function openNav2() {
+  document.getElementById("Nilesatpanel").style.width = "250px";
+}
+
+function closeNav2() {
+  document.getElementById("Nilesatpanel").style.width = "0";
+  document.getElementById("myP").style.visibility="visible";
+  document.getElementById("myP1").style.visibility="visible";
+}
+  
+  function closeNavonly2() {
+document.getElementById("Nilesatpanel").style.width = "0";
+  
+}
+  
+    function hide2() {
+  document.getElementById("Nilesatpanel").style.width = "0";
+  document.getElementById("myP").style.visibility="hidden";
+  document.getElementById("myP1").style.visibility="hidden";
+}
+
