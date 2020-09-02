@@ -83,5 +83,7 @@ document.getElementById("Nilesatpanel").style.width = "0";
   document.getElementById("myP1").style.visibility="hidden";
         document.getElementById('mapframe').src += '';
 }
-
+    function Reload() {
+       document.getElementById('mapframe').contentDocument.location.reload(true);
+}
 
