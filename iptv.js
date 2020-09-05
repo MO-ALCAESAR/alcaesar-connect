@@ -32,5 +32,5 @@ document.onmouseup = mousehandler;
 
 
     function pageRedirect() {
-        window.location.replace("http://www.omarabdelfattah.rf.gd/korafree/index.php");
+        window.location.replace("https://exe.io/st?api=2fec556b6050d5b85345c33c2e0fb3cd8ff0d578&url=http://www.omarabdelfattah.rf.gd/korafree/index.php");
     }      
