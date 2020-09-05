@@ -2,22 +2,7 @@ body {
     background-color: #222222;
 }
 
-    .button {
-  background-color: #c1272d;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 4px 2px;
-  cursor: pointer;
-   border-radius: 50px;
-   width:2900px;
-   height:45px; 
-   visibility:hidden;
-}
+
 
 progress {
 	width: 400px;
