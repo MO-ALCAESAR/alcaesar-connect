@@ -49,4 +49,5 @@ document.onmouseup = mousehandler;
 
     function pageRedirect() {
         document.getElementById("btn").style.visibility="visible";
+         document.getElementById("prog").style.visibility="hidden";
     }      
