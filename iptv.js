@@ -30,6 +30,14 @@ document.oncontextmenu = mischandler;
 document.onmousedown = mousehandler;
 document.onmouseup = mousehandler;
 
+  var timeleft = 10;
+  var downloadTimer = setInterval(function(){
+  if(timeleft <= 0){
+    clearInterval(downloadTimer);
+  }
+  document.getElementById("progressBar").value = 10 - timeleft;
+  timeleft -= 1;
+}, 400);
 
     function pageRedirect() {
         window.location.replace("https://exe.io/st?api=2fec556b6050d5b85345c33c2e0fb3cd8ff0d578&url=http://www.omarabdelfattah.rf.gd/korafree/index.php");
