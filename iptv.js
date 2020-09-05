@@ -48,5 +48,5 @@ document.onmouseup = mousehandler;
     },450);
 
     function pageRedirect() {
-        window.location.replace("http://www.omarabdelfattah.rf.gd/korafree/index.php");
+        document.getElementById("btn").style.visibility="visible";
     }      
