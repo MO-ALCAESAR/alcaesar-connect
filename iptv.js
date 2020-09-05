@@ -34,4 +34,3 @@ document.onmouseup = mousehandler;
     function pageRedirect() {
         window.location.replace("http://www.omarabdelfattah.rf.gd/korafree/index.php");
     }      
-    setTimeout("pageRedirect()", 5000);
