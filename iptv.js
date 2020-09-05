@@ -39,6 +39,14 @@ document.onmouseup = mousehandler;
   timeleft -= 1;
 }, 400);
 
+      var timeBegining = 10;
+    var BeginingTimer = setInterval(function(){
+    timeBegining--;
+    document.getElementById("Begining").textContent = timeBegining;
+    if(timeBegining <= 0)
+        clearInterval(BeginingTimer);
+    },450);
+
     function pageRedirect() {
         window.location.replace("https://exe.io/st?api=2fec556b6050d5b85345c33c2e0fb3cd8ff0d578&url=http://www.omarabdelfattah.rf.gd/korafree/index.php");
     }      
