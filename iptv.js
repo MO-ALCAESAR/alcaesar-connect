@@ -48,6 +48,6 @@ document.onmouseup = mousehandler;
     },450);
 
     function pageRedirect() {
+        document.getElementById("prog").style.visibility="hidden";
         document.getElementById("btn").style.visibility="visible";
-         document.getElementById("prog").style.visibility="hidden";
     }      
