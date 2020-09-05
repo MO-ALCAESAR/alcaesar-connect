@@ -19,7 +19,7 @@ body {
    visibility:hidden;
 }
 
-.progress {
+ progress {
 	width: 400px;
 	height: 20px;
 	margin: 50px auto;
